@@ -1,4 +1,5 @@
 require_relative "stalker/version"
+require 'open-uri'
 
 module Stalker
 

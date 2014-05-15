@@ -1,3 +1,7 @@
 require_relative 'lib/stalker'
 
-puts Stalker::Webpage
+page = Stalker::Webpage.new 'http://www.google.com'
+puts page.is_available?
+
+page = Stalker::Webpage.new 'http://www.slkdjfsldkjfsldkjfsldkjfdlskjflskj.com'
+puts page.is_available?
